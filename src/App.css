@@ -3,7 +3,8 @@
 }
 
 body {
-  background-color: #f5f6fa;
+  background-color: papayawhip;
+  font-family: 'Lato', sans-serif;
 }
 
 .app {
@@ -32,4 +33,13 @@ body {
   .app {
     flex-direction: column;
   }
+}
+
+.app__header > h1 {
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-size: 50px ;
+}
+
+.app__dropdown {
+  background-color: white;
 }
